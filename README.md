@@ -1,4 +1,4 @@
-# 🚀 Pure Node.js REST API — Natural Wonders 
+# 🚀 Pure Node.js REST API — Natural Wonders
 
 A lightweight REST API built with **pure Node.js (HTTP module)** and **modern ES Modules (ES6+)**. This project was created to understand the low-level mechanics of backend servers, manual HTTP route handling, query/path parameter parsing, and JSON response formatting before abstracting concepts with frameworks like Express.js.
 
@@ -15,6 +15,9 @@ A lightweight REST API built with **pure Node.js (HTTP module)** and **modern ES
 
 ## ✨ Key Technical Concepts Implemented
 
+## ✨ Key Technical Concepts Implemented
+
+- **CORS Policies Enabled:** Added native headers (`Access-Control-Allow-Origin`, `Access-Control-Allow-Methods`) to make the API publicly accessible for cross-origin frontend requests (e.g., React client apps).
 - **Framework-Free Routing:** Built custom route handlers using native URL parsing (`new URL()`) to route incoming GET requests dynamically.
 - **Path Parameters Parsing:** Extracted dynamic path params (e.g., `/api/continent/:continent` and `/api/country/:country`) using string manipulation and custom utility functions.
 - **Query Parameters Handling:** Parsed complex multi-filter URL search parameters (e.g., `?continent=Europe&is_open_to_public=true`) using `URLSearchParams` and `Object.fromEntries()`.
