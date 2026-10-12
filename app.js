@@ -18,7 +18,21 @@ const server = http.createServer(async (req, res) => {
     return res.end();
   }
 
-  if (urlObj.pathname === "/api" && req.method === "GET") {
+  if (req.url === "/" && req.method === "GET") {
+    sendJSONResponse(
+      res,
+      200,
+      JSON.stringify({
+        message: "Welcome to Natural Wonders & Attractions REST API",
+        endpoints: {
+          all_destinations: "/api",
+          filter_by_query: "/api?continent=europe&is_open_to_public=true",
+          filter_by_continent: "/api/continent/africa",
+          filter_by_country: "/api/country/usa",
+        },
+      }),
+    );
+  } else if (urlObj.pathname === "/api" && req.method === "GET") {
     let filteredData = getDataByQueryParams(allDestinations, queryParams);
 
     sendJSONResponse(res, 200, JSON.stringify(filteredData));
