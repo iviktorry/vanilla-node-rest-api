@@ -4,7 +4,7 @@ import {
   getDataByQueryParams,
   sendJSONResponse,
   getDataByPathParams,
-} from "./util.js";
+} from "./utilities/utils.js";
 
 const PORT = 7000;
 const server = http.createServer(async (req, res) => {
@@ -12,6 +12,11 @@ const server = http.createServer(async (req, res) => {
   const urlObj = new URL(req.url, `http://${req.headers.host}`);
   const queryParams = Object.fromEntries(urlObj.searchParams);
   console.log(queryParams);
+
+  if (req.url === "/favicon.ico") {
+    res.statusCode = 204;
+    return res.end();
+  }
 
   if (urlObj.pathname === "/api" && req.method === "GET") {
     let filteredData = getDataByQueryParams(allDestinations, queryParams);
