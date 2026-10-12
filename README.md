@@ -2,6 +2,17 @@
 
 A lightweight REST API built with **pure Node.js (HTTP module)** and **modern ES Modules (ES6+)**. This project was created to understand the low-level mechanics of backend servers, manual HTTP route handling, query/path parameter parsing, and JSON response formatting before abstracting concepts with frameworks like Express.js.
 
+
+---
+## 🔗 Links
+
+
+
+**Live Demo:** [View Live Site](https://vanilla-node-rest-api-chi.vercel.app/)  
+**GitHub Repository:** [View Source Code](https://github.com/iviktorry/vanilla-node-rest-api)
+
+
+
 ---
 
 ## 🛠 Tech Stack
