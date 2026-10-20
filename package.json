@@ -1,5 +1,5 @@
 {
-  "name": "scrimba",
+  "name": "vanilla-node-rest-api",
   "version": "1.0.0",
   "main": "app.js",
   "type": "module",
@@ -7,7 +7,7 @@
     "start": "node app.js",
     "dev": "nodemon app.js"
   },
-  "author": "",
+  "author": "iviktorry",
   "license": "ISC",
   "description": "",
   "dependencies": {
