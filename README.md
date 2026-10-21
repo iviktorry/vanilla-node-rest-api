@@ -4,8 +4,8 @@ A lightweight REST API built with native **Node.js (`node:http`)** and **ES Modu
 
 ## 🔗 Links
 
-- **Live API Demo:** [View Live API](https://vanilla-node-rest-api-chi.vercel.app/api)
-- **Repository:** [View Source Code](https://github.com/iviktorry/vanilla-node-rest-api)
+- **Live API Demo:** [View Live API](https://natural-wonders-api.onrender.com/)
+- **Repository:** [View Source Code](https://github.com/iviktorry/natural-wonders-node-rest-api)
 
 ---
 
