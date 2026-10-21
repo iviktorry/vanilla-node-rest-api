@@ -1,6 +1,6 @@
 # 🚀 Pure Node.js REST API — Natural Wonders
 
-A lightweight REST API built with native **Node.js (`node:http`)** and **ES Modules**. Built without frameworks like Express to demonstrate low-level HTTP server architecture, custom routing, manual path/query parameter parsing, and CORS header handling.
+A lightweight REST API built with native **Node.js** and **ES Modules**. Built without frameworks like Express to demonstrate low-level HTTP server architecture, custom routing, manual path/query parameter parsing, and CORS header handling.
 
 ## 🔗 Links
 
@@ -11,10 +11,10 @@ A lightweight REST API built with native **Node.js (`node:http`)** and **ES Modu
 
 ## Tech Stack & Highlights
 
-- **Core:** Node.js (v22+), Native HTTP (`node:http`), ES Modules (`"type": "module"`)
+- **Core:** Node.js, ES Modules
 - **Dev Tools:** Nodemon
-- **Framework-Free Architecture:** Custom router utilizing native `URL` and `URLSearchParams` for search queries (`?continent=Europe&is_open_to_public=true`) and path parsing (`/api/continent/:continent`).
-- **CORS & Edge Cases:** Native `Access-Control-Allow-*` policy header injection and automated browser request handling (e.g., `204 No Content` for `/favicon.ico`).
+- **Framework-Free Architecture:** Custom router utilizing native `URL` and `URLSearchParams` for search queries and path parsing.
+- **CORS & Edge Cases:** Native `Access-Control-Allow-*` policy header injection and automated browser request handling.
 
 ---
 
