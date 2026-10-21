@@ -33,8 +33,8 @@ A lightweight REST API built with native **Node.js (`node:http`)** and **ES Modu
 
 ```bash
 # Clone the repository
-git clone [https://github.com/iviktorry/vanilla-node-rest-api.git](https://github.com/iviktorry/vanilla-node-rest-api.git)
-cd vanilla-node-rest-api
+git clone https://github.com/iviktorry/natural-wonders-node-rest-api.git
+cd natural-wonders-node-rest-api
 
 # Install dev dependencies & start server
 npm install
